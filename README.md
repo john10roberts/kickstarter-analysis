@@ -13,6 +13,7 @@ The initial spreadsheet of the data had 4115rows and 14Columns (columns break do
 For the analysis based on launch date we used the year column to allow us to filter the data based on the year the kickstarter was started.  Created a pivot table to show all the successfull, failed and canceled kickstarters.  Then we filtered that by the parent category of theater.  That data showed us again that most successful kickstarters for theaters are at their peak in May.  The successful campaigns start to trail off the following months and hit a low in december.  
 
 ### Analysis of Outcomes Based on Goals
+![Outcomes Based on Goals](https://github.com/john10roberts/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 For the outcomes based on goals we created a table that would calculate the outcomes of a particular kickstarter based on a range of goals.  The ranges started at under 1000 - greater than 50000.  We then used these groupings to calculate the percentage of kickstarters that suceeded/failed/cancelled.  The data shows that lower goal kickstarters are successful at a much higher rate than.  And while the line chart associated with the data shows that there was an increase in the percentage successful for campaigns from 35-45k the total number of those campaigns are so low that it might be a little misleading just looking at the chart.  It appears that for kickstarters with goals of less than 5k they have the highest odds of success.  
 
 ### Challenges and Difficulties Encountered
